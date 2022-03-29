@@ -10,7 +10,7 @@ using namespace std;
     int i;
     for(i=0;i<k;i++)
         pq.push(arr[i]);
-    for(;i<n;i++){
+        for(;i<n;i++){
         if(pq.top()<arr[i]){
             pq.pop();
             pq.push(arr[i]);
